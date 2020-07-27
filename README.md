@@ -35,8 +35,11 @@ Currently (July 2020) detecting handwritten text is a difficult problem still cu
 <li> Using Russian name prediction software (see other Russian family history sites [insert link here]) to generate Russian version of english/polish/other names and then search for it in documentation </li>
 </ul>
 
+
 <b> File Organization </b>
+
 We are currently organizing files by each of the above listed subproject goals, and will create projects that combine many of them in the future.
 
 <b> Running individual projects </b>
+
 See individual .readme files for each project to see how to run them independently.
