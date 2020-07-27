@@ -2,13 +2,15 @@
 This repo is dedicated to building a deep learning system under development that can identify and search through Russian Birth/Marriage/Death records for names of individuals and other translational purposes.
 
 <b>Vision and Background </b>
+
 The vision of this project is to use deep learning and computer vision methods to create a workflow that allows English speakers to search more easily through Russian family history records to find names more easily. After digging through many of these records, it has been difficult for me personally to distiguish handwritten characters, going back and forth between handwritten character guides and spending a lot of time searching through record documents.  I felt like there was a better way to do this more efficiently and quickly to search through more records.
 
 Here is a basic example of some typical Birth/Marriage/Death records along with example title pages and indices that are sometimes included:
 
 [insert pictures here]
 
-<b>Methods<b>
+<b>Methods</b>
+
 Depending on the records, since there are a vast number, a bounding box table structure is used to separate (generally) any data recorded, and printed text is often used for the titles.  Detecting table regions and title text is an easier first step which can lead to further separation of data for detection of handwritten information.  
 
 Currently (July 2020) detecting handwritten text is a difficult problem still currently being solved in the computer vision/deep learning community, but I still believe that individual characters could still be found using current methods in handwritten text.  I'm trying to start from searching for names using the first (typically capital) letter of the surname based on its placement in the appropriate box (or somewhat near it).
